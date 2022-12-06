@@ -1,0 +1,53 @@
+*{
+
+padding: 0;
+margin: 0;
+
+}
+
+body{
+
+background-image: url(background2.jpg);
+background-size: cover;
+
+}
+
+.navbar{
+
+width: 1320px;
+height: 100px;
+background-color: white;
+margin:auto;
+margin-top: 15px;
+border-radius:20px;
+
+}
+#navbar1{
+
+list-style:none;
+padding:3px;
+margin:2px;
+
+}
+#navbar1 li{
+
+float:right;
+padding: 35px 10px;
+text-align:center;
+margin-right:5px;
+
+}
+#navbar1 li >a{
+   
+text-decoration: none;
+color: #E1E1E1;
+font-weight: bolder;
+font-size:25px;
+
+}
+#navbar1 li >a:hover{
+    color: #695335;
+}
+#navbar1 li >a.active{
+color: #E9A64F;
+}
