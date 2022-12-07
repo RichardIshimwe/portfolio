@@ -107,7 +107,14 @@ i {
     color:white;
     
 }
+.copy2 {
 
+    width: 200px;
+    margin: 0px auto;
+    text-align: center;
+    color:white;
+    
+}
 #navbar1 .names{
 
 font-size:25px;
@@ -228,10 +235,95 @@ padding-top:5px;
     
 }
 
+/* ++++++++++++++++++++++++++++++++++++resume+====+++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.resumes{
+   
+display:flex;
+margin-left: 190px;
+margin-top:15px
 
+}
+.resumes>.resume1{
 
+width: 405px;
+height:310px;
+background-color:#313236;
+border-left:solid #E9A64F;
+border-end-end-radius: 10px;
+border-top-right-radius: 10px;
+padding-left:8px;
 
+}
+.resumes>.resume2{
 
+    width: 415px;
+   
+    background-color:#313236;
+    margin-left:90px;
+    border-left:solid #E9A64F;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left:8px;
+    
+    }
+    .resume2>ul{
 
+list-style:none;
 
+    }
+    
+.sub-title{
+
+font-size: 20px;
+font-weight:bold;
+color:#E1E1E1;
+margin-top:12px;
+
+}
+.fa-droplet{
+
+    font-size: 15px;
+
+}
+
+.fa-circle{
+
+    font-size: 7px;
+
+}
+.resumecont{
+
+display:inline-flex;
+margin-left:250px;
+
+}
+
+.portcont1{
+
+display:flex;
+margin-left:220px;
+
+}
+.portcont2{
+
+    display:flex;
+    margin-top:10px;
+    margin-left:220px;
+    
+    }
+    .portconta,.portcontb{
+
+        width:340px;
+        height:227px;
+        background-color:green;
+        margin-left:30px;
+
+    }
+.portcontc,.portcontd{
+
+width:340px;
+height:227px;
+background-color:green;
+margin-left:30px;
+}
 
