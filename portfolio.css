@@ -559,14 +559,14 @@ background:transparent;
     }
     .resumes>.res>.resume1{
     
-    width: 100rem;
-    height:fit-content;
-    background-color:green;
+    width: 405px;
+    height:310px;
+    background-color:#313236;
     border-left:solid #E9A64F;
     border-end-end-radius: 10px;
     border-top-right-radius: 10px;
     padding-left:8px;
-    font-size: 20px;
+    
     }
     .resumes>.res1>.resume2{
     
