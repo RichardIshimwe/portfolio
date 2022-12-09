@@ -228,6 +228,19 @@ font-weight:bolder;
     font-weight:bolder;
     
     }
+    .downloads90>a>button{
+
+        margin-top:10px;
+        margin-left:10px;    
+        width:145px;    
+        height:35px;
+        background-color:transparent;
+        color:green;
+        border:2px solid green;
+        border-radius:5px;
+        font-weight:bolder;
+        
+        }
 .underline{
     border-bottom:solid #E9A64F;
     color:#9D9D9D;
