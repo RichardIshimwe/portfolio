@@ -293,7 +293,7 @@ padding-top:5px;
 .resumes{
    
 display:flex;
-margin-left: 190px;
+margin-left: 1.5%;
 margin-top:15px
 
 }
@@ -311,9 +311,8 @@ padding-left:8px;
 .resumes>.resume2{
 
     width: 415px;
-   
     background-color:#313236;
-    margin-left:90px;
+    margin-left:15px;
     border-left:solid #E9A64F;
     border-end-end-radius: 10px;
     border-top-right-radius: 10px;
@@ -348,7 +347,7 @@ margin-top:12px;
 .resumecont{
 
 display:inline-flex;
-margin-left:250px;
+margin-left:10%;
 
 }
 
