@@ -485,9 +485,16 @@ background-color:transparent;
     height:425px;
     background-color:#313236;
     border-radius: 10px;
-    margin-left:330px;
-
 }
+.contact112{
+
+    width:546px;
+    height:425px;
+    background-color:#313236;
+    border-radius: 10px;
+    margin-left:330px;
+}
+
 .contact12{
 
     width:546px;
@@ -548,7 +555,7 @@ background:transparent;
 
     .navbar {
 
-        width: 1000px;
+        width: 95%;
         height: 100px;
         background-color: #1D1E21;
         margin: auto;
@@ -579,7 +586,7 @@ background:transparent;
         text-decoration: none;
         color: #E1E1E1;
         font-weight: bolder;
-        font-size: 25px;
+        font-size: 6.3%;
     
     }
     
