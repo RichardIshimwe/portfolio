@@ -2,18 +2,31 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   html {
-    font-size: 62.5%;
+    font-size: 100%;
   }
   *:not(i) {
     font-family: "Poppins", sans-serif;
   }
   header {
-    position: fixed;
-    width: 100%;
+    position:fixed;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    background-color: #1D1E21;
+    margin: auto;
+    border-radius: 20px;
+    padding:1.5rem 1rem;
+    /* margin-top: 15px; */
+    /* height: 100px; */
+    /* padding: 3.4rem 4rem; */
+    /* position: fixed;
+    width: 95%;
     background-color: #2c8eec;
-    padding: 3rem 5rem;
+    padding: 3rem 5rem; */
   }
   nav {
     display: flex;
@@ -26,7 +39,8 @@
     gap: 2rem;
   }
   nav a {
-    font-size: 1.8rem;
+    /* text-decoration:none; */
+    font-size: 1.5625rem;
     text-decoration: none;
   }
   nav a#logo {
@@ -34,13 +48,23 @@
     font-weight: 700;
   }
   nav ul a {
-    color: #ffffff;
-    font-weight: 600;
+    color: #E1E1E1;
+    font-weight: bolder;
   }
   nav ul a:hover {
-    border-bottom: 2px solid #ffffff;
+    color:#695335;
+    border-bottom: 2px solid #695335;
+  }
+  #nav-bar li>a.active {
+    color: #E9A64F;
+    border-bottom: 2px solid #E9A64F;
   }
   section#home {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  section#about {
     height: 100vh;
     display: grid;
     place-items: center;
@@ -54,6 +78,11 @@
   nav ul.active {
     left: 0;
   }
+/* +++++++++++++++++++++++++++++++++++from another file+++++++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
   @media only screen and (max-width: 991px) {
     html {
       font-size: 56.25%;
@@ -61,7 +90,35 @@
     header {
       padding: 2.2rem 5rem;
     }
-  }
+.image{
+
+background-color: white;
+width: auto;
+
+}
+    .image>h2 {
+
+        color: #E1E1E1;
+        font-weight: bolder;
+        font-size: 15px;
+      
+      }
+      
+      .image>h3 {
+      
+        color: #F5AE51;
+        font-weight: bolder;
+        font-size: 20px;
+        padding-top: 5px;
+      
+      }
+
+      .image>img{
+
+width:90px;
+
+      }
+      }
   @media only screen and (max-width: 767px) {
     html {
       font-size: 50%;
