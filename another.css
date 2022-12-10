@@ -2,14 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   }
-  html {
+  /* html {
     font-size: 100%;
-  }
-  *:not(i) {
+  } */
+  /* *:not(i) {
     font-family: "Poppins", sans-serif;
-  }
+  } */
   header {
     position:fixed;
     top: 8%;
@@ -115,7 +115,42 @@ width: auto;
 
       .image>img{
 width:90px;
-      }/* ++++++++++++++++++++++++++++++++++++++++end++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+      }
+      /* ++++++++++++++++++++++++++++++++++++++++end of home++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.image1>img {
+
+    margin-left:0px;
+    margin-top:80px;
+    width: 303px;
+  
+  }
+.aboutcont{
+display:block;
+}
+.content{
+    width:300px;
+    height:213px;
+    margin-left: 5px;
+    background-color:transparent;
+    margin-top:8px;
+   /* background-color:transparent;  */
+  }
+  .abouts{
+
+    padding-top:10px;
+    display:block;
+  
+  }
+  .download>a>button{
+    margin-left:30px;
+    }
+    .skills1{
+        display:flex;
+        margin-left: 5px;
+        }
+/* ++++++++++++++++++++++++++++++++++++++++end++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
       }
   @media only screen and (max-width: 767px) {
     html {
@@ -170,7 +205,8 @@ width:90px;
     
           .image>img{
     width:130px;
-          }/* ++++++++++++++++++++++++++++++++++++++++end of home page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+          }
+/* ++++++++++++++++++++++++++++++++++++++++end of home page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 
   }
@@ -185,4 +221,34 @@ width:90px;
       top: 65.18px;
       height: calc(100vh - 65.18px);
     }
+
+
+    /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
+.image{
+
+    /* background-color: white; */
+        width: auto;
+        
+        }
+            .image>h2 {
+        
+                color: #E1E1E1;
+                font-weight: bolder;
+                font-size: 18px;
+              
+              }
+              
+              .image>h3 {
+              
+                color: #F5AE51;
+                font-weight: bolder;
+                font-size: 25px;
+                padding-top: 3px;
+              
+              }
+        
+              .image>img{
+        width:130px;
+              }
+    /* ++++++++++++++++++++++++++++++++++++++++end of home page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
   }
