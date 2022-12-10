@@ -90,9 +90,9 @@
     header {
       padding: 2.2rem 5rem;
     }
+/*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
 .image{
 
-background-color: white;
 width: auto;
 
 }
@@ -114,10 +114,8 @@ width: auto;
       }
 
       .image>img{
-
 width:90px;
-
-      }
+      }/* ++++++++++++++++++++++++++++++++++++++++end++++++++++++++++++++++++++++++++++++++++++++++++++++ */
       }
   @media only screen and (max-width: 767px) {
     html {
@@ -145,6 +143,36 @@ width:90px;
       transition: 1s;
       gap: 0;
     }
+
+/*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
+.image{
+
+/* background-color: white; */
+    width: auto;
+    
+    }
+        .image>h2 {
+    
+            color: #E1E1E1;
+            font-weight: bolder;
+            font-size: 20px;
+          
+          }
+          
+          .image>h3 {
+          
+            color: #F5AE51;
+            font-weight: bolder;
+            font-size: 27px;
+            padding-top: 3px;
+          
+          }
+    
+          .image>img{
+    width:130px;
+          }/* ++++++++++++++++++++++++++++++++++++++++end of home page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
   }
   @media only screen and (max-width: 575px) {
     html {
