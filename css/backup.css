@@ -223,6 +223,19 @@ border-radius:5px;
 font-weight:bolder;
 
 }
+.downloading>a>button{
+
+  margin-top:10px;    
+  width:145px;    
+  height:35px;
+  background-color:transparent;
+  color:#E9A64F;
+  border:2px solid #E9A64F;
+  border-radius:5px;
+  font-weight:bolder;
+  margin-left:28%;
+  
+  }
 .download>a>button:hover{
 
 background-color: #E9A64F;
@@ -401,7 +414,7 @@ margin-left:220px;
   display:flex;
   margin:0;
   padding:0px;
-  margin-left:20%;
+  margin-left:15%;
   /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);  */
