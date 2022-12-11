@@ -401,17 +401,22 @@ margin-left:220px;
   display:flex;
   margin:0;
   padding:0px;
-  position: fixed; 
-  top: 50%;
+  margin-left:20%;
+  /* top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);  */
 }
+.imgs{
+  margin-top:4%;
+  }
+
 
 .portblock1,.potblock2{
 
-/* display:block; */
+margin-left:10%;
   
   }
+ 
 
 .portblock1>.imgs>img,.potblock2>.imgs>img{
 

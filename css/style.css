@@ -470,7 +470,39 @@ display:block;
         margin-left: 8px;
         margin-bottom:20px;
         }
-    /* ++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++portfolio++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.portblock{
+  display:block;
+  margin:0;
+  padding:0px;
+
+}
+.imgs{
+  margin-top:3%;
+  }
+  .imgs>img{
+    width:100%;
+    }
+  .imgs>h2{
+   margin-left:3%;
+   }
+.portblock1,.potblock2{
+margin-left:0px; 
+  }
+  .potblock2{
+    margin-bottom:25px; 
+      }
+
+.portblock1>.imgs>img,.potblock2>.imgs>img{
+
+border-radius:10px;
+margin:0px;
+
+}
+/* ++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
+
 
 
 }
