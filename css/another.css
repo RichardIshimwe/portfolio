@@ -121,20 +121,19 @@ width:90px;
 .image1>img {
 
     margin-left:0px;
-    margin-top:80px;
-    width: 303px;
+    margin-top:0px;
+    width: 100%;
   
   }
 .aboutcont{
 display:block;
 }
 .content{
-    width:300px;
+    width:80%;
     height:213px;
     margin-left: 5px;
     background-color:transparent;
     margin-top:8px;
-   /* background-color:transparent;  */
   }
   .abouts{
 
@@ -207,8 +206,39 @@ display:block;
     width:130px;
           }
 /* ++++++++++++++++++++++++++++++++++++++++end of home page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* .image1>img {
 
+    margin-left:0px;
+    margin-top:10px;
+    width: 357px;
+  
+  }
+.aboutcont{
+display:block;
+}
+.content{
+    width:357px;
+    height:213px;
+    margin-left: 5px;
+    /* background-color:transparent; */
+    background-color:brown;
+    margin-top:8px;
+  }
+  .abouts{
 
+    padding-top:10px;
+    display:block;
+  
+  }
+  .download>a>button{
+    margin-left:30px;
+    }
+    .skills1{
+        display:flex;
+        margin-left: 5px;
+        } */
+/* ++++++++++++++++++++++++++++++++++++++++end++++++++++++++++++++++++++++++++++++++++++++++++++++ */
   }
   @media only screen and (max-width: 575px) {
     html {
