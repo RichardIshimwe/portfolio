@@ -29,7 +29,7 @@ nav {
   background-color: #1D1E21;
   margin: auto;
   /* border-radius: 20px; */
-  padding:1.5rem 1rem;
+  padding:2rem 2rem;
 }
 nav ul {
   list-style: none;
@@ -38,7 +38,7 @@ nav ul {
 }
 nav a {
   /* text-decoration:none; */
-  font-size: 1.5625rem;
+  font-size: 2.5rem;
   text-decoration: none;
 }
 nav a#logo {
@@ -81,86 +81,7 @@ nav ul.active {
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-@media only screen and (max-width: 991px) {
-  html {
-    font-size: 56.25%;
-  }
-  /* header {
-    padding: 2.2rem 5rem;
-  } */
-/*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
-nav {
-  top: 4%;
-}
-header {
 
-  width:100%;
-  height:63px;
-  background-color: white;
-  
-  }
-  .image>h2 {
-
-      color: #E1E1E1;
-      font-weight: bolder;
-      font-size: 15px;
-    
-    }
-    
-    .image>h3 {
-    
-      color: #F5AE51;
-      font-weight: bolder;
-      font-size: 20px;
-      padding-top: 5px;
-    
-    }
-
-    .image>img{
-width:90px;
-margin-top: 60PX;
-    }
-    /* ++++++++++++++++++++++++++++++++++++++++end of home++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-.image1>img {
-  margin-top:0px;
-  margin-left: 0px;
-  text-align: center;
-  float:left;
-  width:100%;
-  }
-  .aboutcont{
-  display:block;
-  }
-  .content{
-    float:left;
-    width:97%;
-    height:auto;
-    margin-left: 20px;
-    margin-right: 40px;
-    background-color:transparent;
-    /* background-color:brown; */
-    margin-top:8px;
-  }
-  .abouts{
-  
-    padding-top:10px;
-    display:block;
-  
-  }
-  .download>a>button{
-    margin-left:30px;
-    }
-    .skills1{
-        display:flex;
-        margin-left: 100px;
-        margin-bottom: 40px;
-        } 
-
-/* ++++++++++++++++++++++++++++++++++++++++end of about page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-    }
     @media only screen and (max-width: 1366px) {
       html {
         font-size: 56.25%;
@@ -321,6 +242,109 @@ margin-top: 50PX;
 /* ++++++++++++++++++++++++++++++++++++++++end of about page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
     }
+
+    @media only screen and (max-width: 991px) {
+      html {
+        font-size: 56.25%;
+      }
+      /* header {
+        padding: 2.2rem 5rem;
+      } */
+    /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
+    nav {
+      top: 4%;
+    }
+    header {
+    
+      width:100%;
+      height:63px;
+      background-color: white;
+      
+      }
+      .image>h2 {
+    
+          color: #E1E1E1;
+          font-weight: bolder;
+          font-size: 15px;
+        
+        }
+        
+        .image>h3 {
+        
+          color: #F5AE51;
+          font-weight: bolder;
+          font-size: 20px;
+          padding-top: 5px;
+        
+        }
+    
+        .image>img{
+    width:90px;
+    margin-top: 60PX;
+        }
+        /* ++++++++++++++++++++++++++++++++++++++++end of home++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    /* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    
+    .image1>img {
+      margin-top:0px;
+      margin-left: 0px;
+      text-align: center;
+      float:left;
+      width:100%;
+      }
+      .aboutcont{
+      display:block;
+      }
+      .content{
+        float:left;
+        width:97%;
+        height:auto;
+        margin-left: 20px;
+        margin-right: 40px;
+        background-color:transparent;
+        /* background-color:brown; */
+        margin-top:8px;
+      }
+      .abouts{
+      
+        padding-top:10px;
+        display:block;
+      
+      }
+      .download>a>button{
+        margin-left:30px;
+        }
+        .skills1{
+            display:flex;
+            margin-left: 100px;
+            margin-bottom: 40px;
+            } 
+    
+    /* ++++++++++++++++++++++++++++++++++++++++end of about page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    /* ++++++++++++++++++++++++++++++++++++++++resume++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    
+    .resumes{
+      display:block;
+      margin-left: 0%;
+    margin-top:5px
+    }
+    .resume2{
+      margin-left: 0%;
+    }
+    .resume1{
+    
+      width: 380px;
+    margin-left: 8px;
+      
+      }
+      .resume2{
+        width: 380px;
+        margin-left: 8px;
+        margin-bottom:20px;
+        }
+    /* ++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
+        }
+
 @media only screen and (max-width: 767px) {
   html {
     font-size: 50%;
@@ -465,5 +489,27 @@ display:block;
             .image>img{
       width:130px;
             }
-  /* ++++++++++++++++++++++++++++++++++++++++end of home page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* ++++++++++++++++++++++++++++++++++++++++end of home page+++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* ++++++++++++++++++++++++++++++++++++++++resume++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.resumes{
+display:block;
+margin-left: 0%;
+margin-top:5px
+}
+.resume2{
+  margin-left: 0%;
+}
+.resume1{
+
+width: 380px;
+margin-left: 8px;
+  
+  }
+  .resume2{
+    width: 380px;
+    margin-left: 8px;
+    margin-bottom:20px;
+    }
+/* ++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
 }
