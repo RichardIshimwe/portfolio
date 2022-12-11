@@ -161,6 +161,166 @@ margin-top: 60PX;
 /* ++++++++++++++++++++++++++++++++++++++++end of about page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
     }
+    @media only screen and (max-width: 1366px) {
+      html {
+        font-size: 56.25%;
+      }
+      /* header {
+        padding: 2.2rem 5rem;
+      } */
+    /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
+    nav {
+      top: 4%;
+    }
+    header {
+    
+      width:100%;
+      height:63px;
+      background-color: white;
+      
+      }
+      .image>h2 {
+    
+          color: #E1E1E1;
+          font-weight: bolder;
+          font-size: 15px;
+        
+        }
+        
+        .image>h3 {
+        
+          color: #F5AE51;
+          font-weight: bolder;
+          font-size: 20px;
+          padding-top: 5px;
+        
+        }
+    
+        .image>img{
+    width:90px;
+    margin-top: 60PX;
+        }
+        /* ++++++++++++++++++++++++++++++++++++++++end of home++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    /* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    
+    .image1>img {
+      margin-top:0px;
+      margin-left: 40px;
+      text-align: center;
+      float:left;
+      width:40%;
+      }
+      .aboutcont{
+      display:block;
+      }
+      .content{
+        float:left;
+        width:40%;
+        height:auto;
+        margin-left: 50px;
+        margin-right: 40px;
+        background-color:transparent;
+        /* background-color:brown; */
+        margin-top:8px;
+      }
+      .abouts{
+      
+        padding-top:10px;
+        display:flex;
+      
+      }
+      .download>a>button{
+        margin-left:30px;
+        }
+        .skills1{
+            display:flex;
+            margin-left: 100px;
+            margin-bottom: 40px;
+            } 
+    
+    /* ++++++++++++++++++++++++++++++++++++++++end of about page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    
+        }
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 56.25%;
+  }
+  /* header {
+    padding: 2.2rem 5rem;
+  } */
+/*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
+nav {
+  top: 4%;
+}
+header {
+
+  width:100%;
+  height:63px;
+  background-color: white;
+  
+  }
+  .image>h2 {
+
+      color: #E1E1E1;
+      font-weight: bolder;
+      font-size: 15px;
+    
+    }
+    
+    .image>h3 {
+    
+      color: #F5AE51;
+      font-weight: bolder;
+      font-size: 20px;
+      padding-top: 5px;
+    
+    }
+
+    .image>img{
+width:90px;
+margin-top: 50PX;
+    }
+    /* ++++++++++++++++++++++++++++++++++++++++end of home++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.image1>img {
+  margin-top:0px;
+  margin-left: 0px;
+  text-align: center;
+  float:left;
+  width:100%;
+  }
+  .aboutcont{
+  display:block;
+  }
+  .content{
+    float:left;
+    width:97%;
+    height:auto;
+    margin-left: 20px;
+    margin-right: 40px;
+    background-color:transparent;
+    /* background-color:brown; */
+    margin-top:8px;
+  }
+  .abouts{
+  
+    padding-top:10px;
+    display:block;
+  
+  }
+  .download>a>button{
+    margin-left:30px;
+    }
+    .skills1{
+        display:flex;
+        margin-left: 100px;
+        margin-bottom: 40px;
+        } 
+
+/* ++++++++++++++++++++++++++++++++++++++++end of about page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+    }
 @media only screen and (max-width: 767px) {
   html {
     font-size: 50%;
