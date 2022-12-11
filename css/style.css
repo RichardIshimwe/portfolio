@@ -342,7 +342,7 @@ margin-top: 50PX;
         margin-left: 8px;
         margin-bottom:20px;
         }
-    /* ++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /*++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
         }
 
 @media only screen and (max-width: 767px) {
@@ -448,6 +448,31 @@ display:block;
       margin-bottom:10px;
       } 
 /* ++++++++++++++++++++++++++++++++++++++++end++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* ++++++++++++++++++++++++++++++++++++++++resume++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  .resumes{
+    display:block;
+    margin-left: 0%;
+    margin-top:5px
+    }
+    .resume2{
+      margin-left: 0%;
+    }
+    .resume1{
+    
+    width:97%;
+    margin-left: 8px;
+    background-color:#313236;
+      /* background-color: black; */
+      }
+      .resume2{
+        width: 97%;
+        margin-left: 8px;
+        margin-bottom:20px;
+        }
+    /* ++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
 }
 @media only screen and (max-width: 575px) {
   html {
@@ -490,26 +515,90 @@ display:block;
       width:130px;
             }
   /* ++++++++++++++++++++++++++++++++++++++++end of home page+++++++++++++++++++++++++++++++++++++++++++++++++ */
-  /* ++++++++++++++++++++++++++++++++++++++++resume++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-.resumes{
-display:block;
-margin-left: 0%;
-margin-top:5px
 }
-.resume2{
-  margin-left: 0%;
-}
-.resume1{
 
-width: 380px;
-margin-left: 8px;
-  
+@media only screen and (max-width: 414px) {
+  html {
+    font-size: 46.87%;
   }
-  .resume2{
-    width: 380px;
-    margin-left: 8px;
-    margin-bottom:20px;
-    }
-/* ++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* header {
+    padding: 2rem 3rem;
+  } */
+  nav ul {
+    top: 65.18px;
+    height: calc(100vh - 65.18px);
+  }
+
+
+  /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
+.image{
+
+  /* background-color: white; */
+      width: auto;
+      
+      }
+          .image>h2 {
+      
+              color: #E1E1E1;
+              font-weight: bolder;
+              font-size: 18px;
+            
+            }
+            
+            .image>h3 {
+            
+              color: #F5AE51;
+              font-weight: bolder;
+              font-size: 25px;
+              padding-top: 3px;
+            
+            }
+      
+            .image>img{
+      width:130px;
+            }
+  /* ++++++++++++++++++++++++++++++++++++++++end of home page+++++++++++++++++++++++++++++++++++++++++++++++++ */
+}
+
+@media only screen and (max-width: 374px) {
+  html {
+    font-size: 46.87%;
+  }
+  /* header {
+    padding: 2rem 3rem;
+  } */
+  nav ul {
+    top: 65.18px;
+    height: calc(100vh - 65.18px);
+  }
+
+
+  /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
+.image{
+
+  /* background-color: white; */
+      width: auto;
+      
+      }
+          .image>h2 {
+      
+              color: #E1E1E1;
+              font-weight: bolder;
+              font-size: 18px;
+            
+            }
+            
+            .image>h3 {
+            
+              color: #F5AE51;
+              font-weight: bolder;
+              font-size: 25px;
+              padding-top: 3px;
+            
+            }
+      
+            .image>img{
+      width:130px;
+            }
+  /* ++++++++++++++++++++++++++++++++++++++++end of home page+++++++++++++++++++++++++++++++++++++++++++++++++ */
 }
