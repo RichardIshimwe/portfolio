@@ -400,6 +400,7 @@ nav ul.active {
     font-size: 3.2rem;
   }
 
+
   nav ul {
     background-color: black;
     position: fixed;
@@ -409,6 +410,7 @@ nav ul.active {
     height: calc(100vh - 73.6px);
     display: flex;
     flex-direction: column;
+    z-index: 2;
     align-items: center;
     /* justify-content: space-around; */
     transition: 0.5s;

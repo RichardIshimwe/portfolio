@@ -656,7 +656,7 @@ padding-bottom: 2%;
 
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  /* position: absolute; */
+  position:absolute;
   margin-left: 50px;
 
 }
