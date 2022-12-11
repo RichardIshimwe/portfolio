@@ -23,14 +23,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: fixed; */
-  /* top: 8%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   width: 100%;
   background-color: #1D1E21;
   margin: auto;
-  /* border-radius: 20px; */
   padding: 2rem 2rem;
 }
 
@@ -415,9 +410,9 @@ nav ul.active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    transition: 1s;
-    gap: 0;
+    /* justify-content: space-around; */
+    transition: 0.5s;
+    gap: 2rem;
   }
 
   /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
@@ -587,7 +582,7 @@ nav ul.active {
 
   .blagcont1>img,
   .blagcont2>img,
-  .blagcont2>img {
+  .blagcont3>img {
 
     width: 60%;
     margin-left: 14%;
@@ -598,6 +593,7 @@ nav ul.active {
   .blagcont2,
   .blagcont3 {
 
+    /* position:relative; */
     height: 345px;
     width: 99%;
     background-color: #313236;
