@@ -221,11 +221,12 @@ display:block;
 display:block;
 }
 .content{
-    width:92%;
+    float:left;
+    width:65%;
     height:auto;
     margin-left: 10px;
-    /* background-color:transparent; */
-    background-color:brown;
+    background-color:transparent;
+    /* background-color:brown; */
     margin-top:8px;
   }
   .abouts{
