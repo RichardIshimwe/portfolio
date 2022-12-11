@@ -4,6 +4,7 @@
   box-sizing: border-box;
   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
+
 /* html {
   font-size: 100%;
 } */
@@ -12,11 +13,12 @@
 } */
 header {
 
-width:100%;
-height:88px;
-background-color: wheat;
+  width: 100%;
+  height: 88px;
+  background-color: wheat;
 
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -29,39 +31,47 @@ nav {
   background-color: #1D1E21;
   margin: auto;
   /* border-radius: 20px; */
-  padding:2rem 2rem;
+  padding: 2rem 2rem;
 }
+
 nav ul {
   list-style: none;
   display: flex;
   gap: 2rem;
 }
+
 nav a {
   /* text-decoration:none; */
   font-size: 2.5rem;
   text-decoration: none;
 }
+
 nav a#logo {
   color: #000000;
   font-weight: 700;
 }
+
 nav ul a {
   color: #E1E1E1;
   font-weight: bolder;
 }
+
 nav ul a:hover {
-  color:#695335;
+  color: #695335;
   border-bottom: 2px solid #695335;
 }
+
 #nav-bar li>a.active {
   color: #E9A64F;
   border-bottom: 2px solid #E9A64F;
 }
+
 section#home {
   height: 100vh;
   display: grid;
   place-items: center;
 }
+
 /* section#about {
   height: 100vh;
   display: grid;
@@ -70,293 +80,331 @@ section#home {
 h1 {
   font-size: 4rem;
 }
+
 #ham-menu {
   display: none;
 }
+
 nav ul.active {
   left: 0;
 }
+
 /* +++++++++++++++++++++++++++++++++++from another file+++++++++++++++++++++++++++++++++ */
 
 
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-    @media only screen and (max-width: 1366px) {
-      html {
-        font-size: 56.25%;
-      }
-      /* header {
+@media only screen and (max-width: 1366px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  /* header {
         padding: 2.2rem 5rem;
       } */
-    /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
-    nav {
-      top: 4%;
-    }
-    header {
-    
-      width:100%;
-      height:63px;
-      background-color: white;
-      
-      }
-      .image>h2 {
-    
-          color: #E1E1E1;
-          font-weight: bolder;
-          font-size: 15px;
-        
-        }
-        
-        .image>h3 {
-        
-          color: #F5AE51;
-          font-weight: bolder;
-          font-size: 20px;
-          padding-top: 5px;
-        
-        }
-    
-        .image>img{
-    width:90px;
+  /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
+  nav {
+    top: 4%;
+  }
+
+  header {
+
+    width: 100%;
+    height: 63px;
+    background-color: white;
+
+  }
+
+  .image>h2 {
+
+    color: #E1E1E1;
+    font-weight: bolder;
+    font-size: 15px;
+
+  }
+
+  .image>h3 {
+
+    color: #F5AE51;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 5px;
+
+  }
+
+  .image>img {
+    width: 90px;
     margin-top: 60PX;
-        }
-        /* ++++++++++++++++++++++++++++++++++++++++end of home++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-    /* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
-    
-    .image1>img {
-      margin-top:0px;
-      margin-left: 40px;
-      text-align: center;
-      float:left;
-      width:40%;
-      }
-      .aboutcont{
-      display:block;
-      }
-      .content{
-        float:left;
-        width:40%;
-        height:auto;
-        margin-left: 50px;
-        margin-right: 40px;
-        background-color:transparent;
-        /* background-color:brown; */
-        margin-top:8px;
-      }
-      .abouts{
-      
-        padding-top:10px;
-        display:flex;
-      
-      }
-      .download>a>button{
-        margin-left:30px;
-        }
-        .skills1{
-            display:flex;
-            margin-left: 100px;
-            margin-bottom: 40px;
-            } 
-    
-    /* ++++++++++++++++++++++++++++++++++++++++end of about page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-    
-        }
+  }
+
+  /* ++++++++++++++++++++++++++++++++++++++++end of home++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  .image1>img {
+    margin-top: 0px;
+    margin-left: 40px;
+    text-align: center;
+    float: left;
+    width: 40%;
+  }
+
+  .aboutcont {
+    display: block;
+  }
+
+  .content {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 40px;
+    background-color: transparent;
+    /* background-color:brown; */
+    margin-top: 8px;
+  }
+
+  .abouts {
+
+    padding-top: 10px;
+    display: flex;
+
+  }
+
+  .download>a>button {
+    margin-left: 30px;
+  }
+
+  .skills1 {
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 40px;
+  }
+
+  /* ++++++++++++++++++++++++++++++++++++++++end of about page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+}
+
 @media only screen and (max-width: 1024px) {
   html {
     font-size: 56.25%;
   }
+
   /* header {
     padding: 2.2rem 5rem;
   } */
-/*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
-nav {
-  top: 4%;
-}
-header {
-
-  width:100%;
-  height:63px;
-  background-color: white;
-  
+  /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
+  nav {
+    top: 4%;
   }
+
+  header {
+
+    width: 100%;
+    height: 63px;
+    background-color: white;
+
+  }
+
   .image>h2 {
 
-      color: #E1E1E1;
-      font-weight: bolder;
-      font-size: 15px;
-    
-    }
-    
-    .image>h3 {
-    
-      color: #F5AE51;
-      font-weight: bolder;
-      font-size: 20px;
-      padding-top: 5px;
-    
-    }
+    color: #E1E1E1;
+    font-weight: bolder;
+    font-size: 15px;
 
-    .image>img{
-width:90px;
-margin-top: 50PX;
-    }
-    /* ++++++++++++++++++++++++++++++++++++++++end of home++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  }
 
-.image1>img {
-  margin-top:0px;
-  margin-left: 0px;
-  text-align: center;
-  float:left;
-  width:100%;
+  .image>h3 {
+
+    color: #F5AE51;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 5px;
+
   }
-  .aboutcont{
-  display:block;
+
+  .image>img {
+    width: 90px;
+    margin-top: 50PX;
   }
-  .content{
-    float:left;
-    width:97%;
-    height:auto;
+
+  /* ++++++++++++++++++++++++++++++++++++++++end of home++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  .image1>img {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    float: left;
+    width: 100%;
+  }
+
+  .aboutcont {
+    display: block;
+  }
+
+  .content {
+    float: left;
+    width: 97%;
+    height: auto;
     margin-left: 20px;
     margin-right: 40px;
-    background-color:transparent;
+    background-color: transparent;
     /* background-color:brown; */
-    margin-top:8px;
+    margin-top: 8px;
   }
-  .abouts{
-  
-    padding-top:10px;
-    display:block;
-  
+
+  .abouts {
+
+    padding-top: 10px;
+    display: block;
+
   }
-  .download>a>button{
-    margin-left:30px;
-    }
-    .skills1{
-        display:flex;
-        margin-left: 100px;
-        margin-bottom: 40px;
-        } 
 
-/* ++++++++++++++++++++++++++++++++++++++++end of about page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  .download>a>button {
+    margin-left: 30px;
+  }
 
-    }
+  .skills1 {
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 40px;
+  }
 
-    @media only screen and (max-width: 991px) {
-      html {
-        font-size: 56.25%;
-      }
-      /* header {
+  /* ++++++++++++++++++++++++++++++++++++++++end of about page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+}
+
+@media only screen and (max-width: 991px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  /* header {
         padding: 2.2rem 5rem;
       } */
-    /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
-    nav {
-      top: 4%;
-    }
-    header {
-    
-      width:100%;
-      height:63px;
-      background-color: white;
-      
-      }
-      .image>h2 {
-    
-          color: #E1E1E1;
-          font-weight: bolder;
-          font-size: 15px;
-        
-        }
-        
-        .image>h3 {
-        
-          color: #F5AE51;
-          font-weight: bolder;
-          font-size: 20px;
-          padding-top: 5px;
-        
-        }
-    
-        .image>img{
-    width:90px;
+  /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
+  nav {
+    top: 4%;
+  }
+
+  header {
+
+    width: 100%;
+    height: 63px;
+    background-color: white;
+
+  }
+
+  .image>h2 {
+
+    color: #E1E1E1;
+    font-weight: bolder;
+    font-size: 15px;
+
+  }
+
+  .image>h3 {
+
+    color: #F5AE51;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-top: 5px;
+
+  }
+
+  .image>img {
+    width: 90px;
     margin-top: 60PX;
-        }
-        /* ++++++++++++++++++++++++++++++++++++++++end of home++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-    /* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
-    
-    .image1>img {
-      margin-top:0px;
-      margin-left: 0px;
-      text-align: center;
-      float:left;
-      width:100%;
-      }
-      .aboutcont{
-      display:block;
-      }
-      .content{
-        float:left;
-        width:97%;
-        height:auto;
-        margin-left: 20px;
-        margin-right: 40px;
-        background-color:transparent;
-        /* background-color:brown; */
-        margin-top:8px;
-      }
-      .abouts{
-      
-        padding-top:10px;
-        display:block;
-      
-      }
-      .download>a>button{
-        margin-left:30px;
-        }
-        .skills1{
-            display:flex;
-            margin-left: 100px;
-            margin-bottom: 40px;
-            } 
-    
-    /* ++++++++++++++++++++++++++++++++++++++++end of about page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-    /* ++++++++++++++++++++++++++++++++++++++++resume++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-    
-    .resumes{
-      display:block;
-      margin-left: 0%;
-    margin-top:5px
-    }
-    .resume2{
-      margin-left: 0%;
-    }
-    .resume1{
-    
-      width: 380px;
+  }
+
+  /* ++++++++++++++++++++++++++++++++++++++++end of home++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  .image1>img {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    float: left;
+    width: 100%;
+  }
+
+  .aboutcont {
+    display: block;
+  }
+
+  .content {
+    float: left;
+    width: 97%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 40px;
+    background-color: transparent;
+    /* background-color:brown; */
+    margin-top: 8px;
+  }
+
+  .abouts {
+
+    padding-top: 10px;
+    display: block;
+
+  }
+
+  .download>a>button {
+    margin-left: 30px;
+  }
+
+  .skills1 {
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 40px;
+  }
+
+  /* ++++++++++++++++++++++++++++++++++++++++end of about page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* ++++++++++++++++++++++++++++++++++++++++resume++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  .resumes {
+    display: block;
+    margin-left: 0%;
+    margin-top: 5px
+  }
+
+  .resume2 {
+    margin-left: 0%;
+  }
+
+  .resume1 {
+
+    width: 380px;
     margin-left: 8px;
-      
-      }
-      .resume2{
-        width: 380px;
-        margin-left: 8px;
-        margin-bottom:20px;
-        }
+
+  }
+
+  .resume2 {
+    width: 380px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+  }
+
   /*++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
-        }
+}
 
 @media only screen and (max-width: 767px) {
   html {
     font-size: 50%;
   }
+
   #ham-menu {
     display: block;
     color: #ffffff;
   }
+
   nav a#logo,
   #ham-menu {
     font-size: 3.2rem;
   }
+
   nav ul {
     background-color: black;
     position: fixed;
@@ -372,16 +420,16 @@ margin-top: 50PX;
     gap: 0;
   }
 
-/*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
-.image{
-/* background-color: white; */
-margin-top: 40%;
-  
+  /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
+  .image {
+    /* background-color: white; */
+    margin-top: 40%;
+
   }
 
   header {
 
-    width:100%;
+    width: 100%;
     background-color: wheat;
   }
 
@@ -389,175 +437,299 @@ margin-top: 40%;
     top: 5.5%;
   }
 
-      .image>h2 {
-  
-          color: #E1E1E1;
-          font-weight: bolder;
-          font-size: 20px;
-        
-        }
-        
-        .image>h3 {
-        
-          color: #F5AE51;
-          font-weight: bolder;
-          font-size: 27px;
-          padding-top: 3px;
-        
-        }
-  
-        .image>img{
-  width:130px;
-        }
-/* ++++++++++++++++++++++++++++++++++++++++end of home page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  .image>h2 {
 
-.image1>img {
+    color: #E1E1E1;
+    font-weight: bolder;
+    font-size: 20px;
 
-text-align: center;
-float:left;
-margin-top:2px;
-width:100%;
-margin-left: 0px;
-}
-.aboutcont{
-display:block;
-}
-.content{
-  float:left;
-  width:97%;
-  height:auto;
-  margin-left: 5px;
-  margin-right: 40px;
-  background-color:transparent;
-  /* background-color:brown; */
-  margin-top:8px;
-}
-.abouts{
-
-  padding-top:10px;
-  display:block;
-
-}
-.download>a>button{
-  margin-left:30px;
   }
-  .skills1{
-      display:flex;
-      margin-left: 5px;
-      margin-bottom:10px;
-      } 
-/* ++++++++++++++++++++++++++++++++++++++++end++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  .image>h3 {
+
+    color: #F5AE51;
+    font-weight: bolder;
+    font-size: 27px;
+    padding-top: 3px;
+
+  }
+
+  .image>img {
+    width: 130px;
+  }
+
+  /* ++++++++++++++++++++++++++++++++++++++++end of home page++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* +++++++++++++++++++++++++++++++++++++++++++++about++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  .image1>img {
+
+    text-align: center;
+    float: left;
+    margin-top: 2px;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .aboutcont {
+    display: block;
+  }
+
+  .content {
+    float: left;
+    width: 97%;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 40px;
+    background-color: transparent;
+    /* background-color:brown; */
+    margin-top: 8px;
+  }
+
+  .abouts {
+
+    padding-top: 10px;
+    display: block;
+
+  }
+
+  .download>a>button {
+    margin-left: 30px;
+  }
+
+  .skills1 {
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+
+  /* ++++++++++++++++++++++++++++++++++++++++end++++++++++++++++++++++++++++++++++++++++++++++++++++ */
   /* ++++++++++++++++++++++++++++++++++++++++resume++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-  .resumes{
-    display:block;
+  .resumes {
+    display: block;
     margin-left: 0%;
-    margin-top:5px
-    }
-    .resume2{
-      margin-left: 0%;
-    }
-    .resume1{
-    
-    width:97%;
+    margin-top: 5px
+  }
+
+  .resume2 {
+    margin-left: 0%;
+  }
+
+  .resume1 {
+
+    width: 97%;
     margin-left: 8px;
-    background-color:#313236;
-      /* background-color: black; */
-      }
-      .resume2{
-        width: 97%;
-        margin-left: 8px;
-        margin-bottom:20px;
-        }
-/* ++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* ++++++++++++++++++++++++++++++++++++++++portfolio++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-.portblock{
-  display:block;
-  margin:0;
-  padding:0px;
-
-}
-.imgs{
-  margin-top:3%;
-  }
-  .imgs>img{
-    width:100%;
-    }
-  .imgs>h2{
-   margin-left:3%;
-   }
-.portblock1,.potblock2{
-margin-left:0px; 
-  }
-  .potblock2{
-    margin-bottom:25px; 
-      }
-
-.portblock1>.imgs>img,.potblock2>.imgs>img{
-
-border-radius:10px;
-margin:0px;
-
-}
-/* ++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* ++++++++++++++++++++++++++++++++++++++++blog++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-.blagcont{
-
-  display:block;
-  margin-top: 8%;
-  padding-bottom: 2%;
-  
+    background-color: #313236;
+    /* background-color: black; */
   }
 
-  .fill{
-    width:100%;
+  .resume2 {
+    width: 97%;
+    margin-left: 8px;
+    margin-bottom: 20px;
+  }
+
+  /* ++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* ++++++++++++++++++++++++++++++++++++++++portfolio++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  .portblock {
+    display: block;
+    margin: 0;
+    padding: 0px;
+
+  }
+
+  .imgs {
+    margin-top: 3%;
+  }
+
+  .imgs>img {
+    width: 100%;
+  }
+
+  .imgs>h2 {
+    margin-left: 3%;
+  }
+
+  .portblock1,
+  .potblock2 {
+    margin-left: 0px;
+  }
+
+  .potblock2 {
+    margin-bottom: 25px;
+  }
+
+  .portblock1>.imgs>img,
+  .potblock2>.imgs>img {
+
+    border-radius: 10px;
+    margin: 0px;
+
+  }
+
+  /* ++++++++++++++++++++++++++++++++++++++++end of resume page++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* ++++++++++++++++++++++++++++++++++++++++blog++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  .blagcont {
+
+    display: block;
+    margin-top: 8%;
+    padding-bottom: 2%;
+
+  }
+
+  .fill {
+    width: 100%;
     height: 30%;
     background-color: #2A2B30;
-    }
-.blagcont1>img,.blagcont2>img,.blagcont2>img{
-
-width:60%;
-margin-left: 14%;
-
-}
-.blagcont1,.blagcont2,.blagcont3{
-
-  height:345px;
-  width: 99%;
-  background-color:#313236;
-  margin-left:5%;
-  margin-top:3%;
-margin-bottom:6%;
-}
-
-/* ++++++++++++++++++++++++++++++++++++++++end of blog page++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* ++++++++++++++++++++++++++++++++++++++++contact++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-.contactcont{
-
-  display:block;
-  margin-left:0;
-  margin-top:0;
-  
   }
-  .contact1{
 
-    width:99.5%;
-    height:auto;
+  .blagcont1>img,
+  .blagcont2>img,
+  .blagcont2>img {
+
+    width: 60%;
+    margin-left: 14%;
+
+  }
+
+  .blagcont1,
+  .blagcont2,
+  .blagcont3 {
+
+    height: 345px;
+    width: 99%;
+    background-color: #313236;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 6%;
+  }
+
+  /* ++++++++++++++++++++++++++++++++++++++++end of blog page++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* ++++++++++++++++++++++++++++++++++++++++contact++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  .contactcont {
+
+    display: block;
+    margin-left: 0;
+    margin-top: 0;
+
+  }
+
+  .contact1 {
+
+    width: 99.5%;
+    height: auto;
     /* background-color:green; */
+
+  }
+
+  /* ++++++++++++++++++++++++++++++++++++++++end of contact page++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* ++++++++++++++++++++++++++++++++++++++++more blogs page++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+  .blog1 {
+
+    width: 98%;
+    height: auto;
+    background-color: #313236;
+    border-radius: 10px;
+    margin: 0 auto;
+
+  }
+  .blog1>img{
+
+width:100%;
+
+  }
+  .download>a>button{
+
+    margin-top:10px;    
+    width:40%;    
+    height:35px;
+    background-color:transparent;
+    color:#E9A64F;
+    border:2px solid #E9A64F;
+    border-radius:5px;
+    font-weight:bolder;
     
     }
+     #barea{
+      padding-top: 10px;
+      width:80%;
+      border: none;
+      border-bottom: 2px #E9A64F solid;
+      background-color:transparent;     
+      }
+      input{
 
-/* ++++++++++++++++++++++++++++++++++++++++end of contact page++++++++++++++++++++++++++++++++++++++++++++++++ */
+margin-left: 5px;
+
+      }
+    /* ++++++++++++++++++++++++++++++++++++++++end of contact page++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* ++++++++++++++++++++++++++++++++++++++++login page++++++++++++++++++++++++++++++++++++++++++++++++ */
+  .signup{
+
+    margin-left:30px;
+    margin-top:10px;
+    margin-bottom:10px;
+    
+    }
+  .contact12{
+
+    width:98%;
+    height:auto;
+    background-color:#313236;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 35%;
+  padding:10px;
+
+  }
+  
+  .subcont1{
+    margin:5%;
+    color:#CDCDCE;
+    }
+  /* ++++++++++++++++++++++++++++++++++++++++more blogs page++++++++++++++++++++++++++++++++++++++++++++++++ */
+  /* ++++++++++++++++++++++++++++++++++++++++add blog++++++++++++++++++++++++++++++++++++++++++++++++ */
+  .downloads>a>button{
+
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:25%;    
+    width:145px;    
+    height:35px;
+    background-color:transparent;
+    color:#E9A64F;
+    border:2px solid #E9A64F;
+    border-radius:5px;
+    font-weight:bolder;
+    
+    }
+  .contact2{
+
+    width:98%;
+    height:auto;
+    background-color:#313236;
+    border-radius: 10px;
+  }
+  textarea{
+
+    width:97%;
+    height:129px;
+    background:transparent;
+    
+    }
+  /* ++++++++++++++++++++++++++++++++++++++++add blog page en++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 }
+
 @media only screen and (max-width: 575px) {
   html {
     font-size: 46.87%;
   }
+
   /* header {
     padding: 2rem 3rem;
   } */
@@ -568,32 +740,34 @@ margin-bottom:6%;
 
 
   /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
-.image{
+  .image {
 
-  /* background-color: white; */
-      width: auto;
-      
-      }
-          .image>h2 {
-      
-              color: #E1E1E1;
-              font-weight: bolder;
-              font-size: 18px;
-            
-            }
-            
-            .image>h3 {
-            
-              color: #F5AE51;
-              font-weight: bolder;
-              font-size: 25px;
-              padding-top: 3px;
-            
-            }
-      
-            .image>img{
-      width:130px;
-            }
+    /* background-color: white; */
+    width: auto;
+
+  }
+
+  .image>h2 {
+
+    color: #E1E1E1;
+    font-weight: bolder;
+    font-size: 18px;
+
+  }
+
+  .image>h3 {
+
+    color: #F5AE51;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 3px;
+
+  }
+
+  .image>img {
+    width: 130px;
+  }
+
   /* ++++++++++++++++++++++++++++++++++++++++end of home page+++++++++++++++++++++++++++++++++++++++++++++++++ */
 }
 
@@ -601,6 +775,7 @@ margin-bottom:6%;
   html {
     font-size: 46.87%;
   }
+
   /* header {
     padding: 2rem 3rem;
   } */
@@ -611,32 +786,34 @@ margin-bottom:6%;
 
 
   /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
-.image{
+  .image {
 
-  /* background-color: white; */
-      width: auto;
-      
-      }
-          .image>h2 {
-      
-              color: #E1E1E1;
-              font-weight: bolder;
-              font-size: 18px;
-            
-            }
-            
-            .image>h3 {
-            
-              color: #F5AE51;
-              font-weight: bolder;
-              font-size: 25px;
-              padding-top: 3px;
-            
-            }
-      
-            .image>img{
-      width:130px;
-            }
+    /* background-color: white; */
+    width: auto;
+
+  }
+
+  .image>h2 {
+
+    color: #E1E1E1;
+    font-weight: bolder;
+    font-size: 18px;
+
+  }
+
+  .image>h3 {
+
+    color: #F5AE51;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 3px;
+
+  }
+
+  .image>img {
+    width: 130px;
+  }
+
   /* ++++++++++++++++++++++++++++++++++++++++end of home page+++++++++++++++++++++++++++++++++++++++++++++++++ */
 }
 
@@ -644,6 +821,7 @@ margin-bottom:6%;
   html {
     font-size: 46.87%;
   }
+
   /* header {
     padding: 2rem 3rem;
   } */
@@ -654,31 +832,33 @@ margin-bottom:6%;
 
 
   /*+++++++++++++++++++++++++++++++++ home page +++++++++++++++++++++++++++++++++++++++++++*/
-.image{
+  .image {
 
-  /* background-color: white; */
-      width: auto;
-      
-      }
-          .image>h2 {
-      
-              color: #E1E1E1;
-              font-weight: bolder;
-              font-size: 18px;
-            
-            }
-            
-            .image>h3 {
-            
-              color: #F5AE51;
-              font-weight: bolder;
-              font-size: 25px;
-              padding-top: 3px;
-            
-            }
-      
-            .image>img{
-      width:130px;
-            }
+    /* background-color: white; */
+    width: auto;
+
+  }
+
+  .image>h2 {
+
+    color: #E1E1E1;
+    font-weight: bolder;
+    font-size: 18px;
+
+  }
+
+  .image>h3 {
+
+    color: #F5AE51;
+    font-weight: bolder;
+    font-size: 25px;
+    padding-top: 3px;
+
+  }
+
+  .image>img {
+    width: 130px;
+  }
+
   /* ++++++++++++++++++++++++++++++++++++++++end of home page+++++++++++++++++++++++++++++++++++++++++++++++++ */
 }

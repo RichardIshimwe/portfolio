@@ -223,6 +223,7 @@ border-radius:5px;
 font-weight:bolder;
 
 }
+
 .downloading>a>button{
 
   margin-top:10px;    
@@ -243,7 +244,7 @@ color:white;
 
 }
 .download1>a>button{
-  margin-left:100px;
+  margin-left:29%;
   margin-top:10px;    
   width:145px;    
   height:35px;
@@ -461,8 +462,10 @@ margin-left:120px;
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++blog++++++++++++++++++++++++++ */
 .blog1{
 
-width:529px;
-height:467px;
+/* width:529px; */
+width:529px; 
+/* height:467px; */
+height:auto;
 background-color:#313236;
 border-radius:10px;
 /* margin-left:108px; */
@@ -537,6 +540,7 @@ margin-left:107px;
 margin-top:30px;
 
 }
+
 .contact1{
 
 width:546px;
@@ -565,9 +569,11 @@ height:425px;
   width:546px;
   height:425px;
   background-color:#313236;
+  /* background-color:#695335; */
   border-radius: 10px;
-  margin-left:330px;
-
+  /* margin-left:330px; */
+  padding:60px;
+   margin: 20px auto;
 }
 
 .contact1>.skills>h2{
@@ -580,7 +586,7 @@ padding-top:7px;
 
   padding: 10px;
   font-size:18px;
-  width:358px;
+  width:90%;
   border: none;
   border-bottom: 2px #CDCDCE solid;
   background-color:transparent;
@@ -588,20 +594,17 @@ padding-top:7px;
   }
 .subcont{
 margin:10px;
-color:#CDCDCE;
 }
-.subcont1{
-  margin:80px;
-  color:#CDCDCE;
-  }
+
 
 .signup{
 
-margin-left:70px;
-margin-top:20px;
-
-}
-
+  margin-left:25%;
+  margin-top:20px;
+  margin-bottom:90600px;
+  
+  }
+  
 input{
 
 color:#CDCDCE;
