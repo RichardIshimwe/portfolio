@@ -11,6 +11,12 @@
 /* *:not(i) {
   font-family: "Poppins", sans-serif;
 } */
+.output{
+
+color:red;
+font-size:18px;
+
+}
 header {
 
   width: 100%;

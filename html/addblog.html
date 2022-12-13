@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Add blog page</title>
+    <title>Add page</title>
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <!-- Google Fonts -->
@@ -44,14 +44,20 @@
         </div>
         <div class="contact2">
             <div class="subcont">
-                <input type="text" name="" id="bareas" placeholder="addd blog title here"></br></br></br>
-                <textarea name="" id="" cols="30" rows="10" placeholder="add blog content  here"></textarea>
+                <form action="blog.html" name="myform" onsubmit="return(validate_addblog())">
+                <input type="text" name="title_addblog" id="bareas" placeholder="addd blog title here" >
+                <p id="tit_addblog" class="output"></p>
+            </br></br>
+            <!-- <input type="text" name="message_addblog" id="bareas" placeholder="addd blog title here" > -->
+                <textarea name="message_addblog" id="" cols="30" rows="10" placeholder="add blog content  here"></textarea>
+                <p id="mess_addblog" class="output"></p>
                 <div class="downloads90">
                     <a><button>pick a blog picture</button></a>
                 </div>
                 <div class="downloads">
-                    <a href="blog.html"><button>Add blog</button></a>
+                    <a><button>Add blog</button></a>
                 </div>
+            </form>
             </div>
 
         </div>
@@ -66,7 +72,7 @@
         </tr>
         </table>
         </div>
-      <script src="../javascript/js.js"></script>
+        <script src="../javascript/js.js"></script>
 
 </body>
 

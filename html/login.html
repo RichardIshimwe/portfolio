@@ -1,65 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Login page</title>
-        <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
-        <!-- Stylesheet -->
-        <link rel="stylesheet" href="../css/backup.css">
-        <link rel="stylesheet" href="../css/style.css" />
-    </head>
-    
-    <body>
-    
-        <!-- <header> -->
-        <nav>
-            <a href="#home" id="logo"><b style="color:#E1E1E1;">Ishimwe </b><b style="color:#CB872D;">Richard</b></a>
-            <i class="fas fa-bars" id="ham-menu"></i>
-            <ul id="nav-bar">
-                <li><a href="./../index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html" >Resume</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html"  class="active">Login</a></li>
-            </ul>
-        </nav>
-        <!-- </header> -->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../css/backup.css">
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
 
-        <div class="contact12">
-            <div class="subcont1">
-                <input type="text" name="" id="bareas" placeholder="Enter the user name">
-                <input type="text" name="" id="bareas" placeholder="Enter the password"></br></br></br>
+<body>
+
+    <!-- <header> -->
+    <nav>
+        <a href="#home" id="logo"><b style="color:#E1E1E1;">Ishimwe </b><b style="color:#CB872D;">Richard</b></a>
+        <i class="fas fa-bars" id="ham-menu"></i>
+        <ul id="nav-bar">
+            <li><a href="./../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html" class="active">Login</a></li>
+        </ul>
+    </nav>
+    <!-- </header> -->
+
+    <div class="contact12">
+        <div class="subcont1">
+            <form action="addblog.html" name="myform" onsubmit="return(validate_login())">
+                <input type="text" name="username_login" id="bareas" class="username_login"
+                    placeholder="Enter the user name">
+                <p id="user_login" class="output"></p>
+                <input type="text" name="password_login" id="bareas" class="pass" placeholder="Enter the password">
+                <p id="pass_login" class="output"></p>
+                </br></br></br>
+
                 <div class="download1">
-                 <a href="addblog.html"><button>login</button></a>
-                </div>
+                    <a><button>login</button></a>
+            </form>
+        </div>
 
-<div class="signup">
+        <div class="signup">
 
-    <p class="content1">Forgot password |<span class="iner"><a href="signup.html">Signup</a></span> </p>
-
-</div>
-
-            
+            <p class="content1">Forgot password |<span class="iner"><a href="signup.html">Signup</a></span> </p>
 
         </div>
+
+
 
     </div>
- 
+
+    </div>
+
     <div class="copy">
         <table>
-        <tr>
-        <td><i class="fa-regular fa-copyright"></i></td>
-        <td><h3>Copyright <b>Richard</b></h3></td>
-        </tr>
+            <tr>
+                <td><i class="fa-regular fa-copyright"></i></td>
+                <td>
+                    <h3>Copyright <b>Richard</b></h3>
+                </td>
+            </tr>
         </table>
-        </div>
-      <script src="../javascript/js.js"></script>
+    </div>
+    <script src="../javascript/js.js"></script>
 </body>
 
 </html>

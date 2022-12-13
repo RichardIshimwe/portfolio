@@ -588,7 +588,9 @@ padding-top:7px;
   font-size:18px;
   width:90%;
   border: none;
-  border-bottom: 2px #CDCDCE solid;
+  margin-top: 4px;
+  border-radius:8px;
+  border: 2px #CDCDCE solid;
   background-color:transparent;
   
   }
@@ -615,6 +617,8 @@ textarea{
 
 width:380px;
 height:129px;
+color: #CDCDCE;
+font-size:16px;
 background:transparent;
 
 }
