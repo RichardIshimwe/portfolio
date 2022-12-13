@@ -33,12 +33,15 @@
 
         <div class="contact12">
             <div class="subcont1">
-                <form>
-                <input type="text" name="" id="bareas" class="username" placeholder="Enter the user name">
-                <p id="usernamep" class="validation"></p>
-                <input type="text" name="" id="bareas" class="email" placeholder="Enter the email">
-                <input type="text" name="" id="bareas" class="password" placeholder="Enter the password">
-                <input type="text" name="" id="bareas" class="confirmp" placeholder="Confirm password"></br></br></br>
+                <form name="myform" action="login.html" onsubmit="return(validate_signup())">
+                <input type="text" name="username_signup" id="bareas" class="username" placeholder="Enter the user name">
+                <p id="user_signup" class="output"></p>
+                <input type="text" name="email_signup" id="bareas" class="email" placeholder="Enter the email">
+                <p id="em_signup" class="output"></p>
+                <input type="text" name="password_signup" id="bareas" class="password" placeholder="Enter the password">
+                <p id="pass_signup" class="output"></p>
+                <input type="text" name="confirmp_signup" id="bareas" class="confirmp" placeholder="Confirm password">
+                <p id="conf_signup" class="output"></p></br></br></br>
                 <div class="download1">
                  <a ><button class="btn">Signup</button></a>
                 </form>
