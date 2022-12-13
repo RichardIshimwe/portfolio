@@ -3,7 +3,8 @@ let user_login = document.getElementById("user_login");
 let pass_login = document.getElementById("pass_login");
 let tit_addblog = document.getElementById("tit_addblog");
 let mess_addblog = document.getElementById("mess_addblog");
-let 
+let em_contact = document.getElementById("em_contact");
+let phon_contact = document.getElementById("")
 
 let validate_contact = () =>{
 
