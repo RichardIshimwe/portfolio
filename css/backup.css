@@ -581,7 +581,30 @@ height:425px;
 padding-top:7px;
 
 }
+#bareas_login_pass{
 
+  padding: 10px;
+  font-size:18px;
+  width:90%;
+  border: none;
+  margin-top: 4px;
+  border-radius:8px;
+  border: 2px #CDCDCE solid;
+  background-color:transparent;
+  
+  }
+#bareas_login_user{
+
+  padding: 10px;
+  font-size:18px;
+  width:90%;
+  border: none;
+  margin-top: 4px;
+  border-radius:8px;
+  border: 2px #CDCDCE solid;
+  background-color:transparent;
+  
+  }
 #bareas{
 
   padding: 10px;

@@ -12,6 +12,10 @@ let em_signup = document.getElementById("em_signup");
 let pass_signup = document.getElementById("pass_signup");
 let conf_signup = document.getElementById("conf_signup");
 
+let login_border = document.getElementById("bareas_login_user");
+
+
+
 
 let validate_signup = () =>{
 
@@ -96,8 +100,11 @@ if(document.myform.message_addblog.value != "" && document.myform.title_addblog.
 let validate_login = () =>{
 
 if(document.myform.username_login.value == ""){
-  user_login.innerHTML = "Please enter the user name";
-}else{
+  user_login.innerHTML = "Please enter the user names";
+  login_border.style.border = "2px solid red";
+  // user_login.style.border = "5px solid red";
+}else if(document.myform.username_login.value != "" && document.myform.username_login.value.length >= 5){
+  login_border.style.border = "2px solid green";
   user_login.innerHTML = "";
 }
 if(document.myform.password_login.value == ""){
