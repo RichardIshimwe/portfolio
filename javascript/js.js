@@ -45,6 +45,7 @@ let validate_signup = () => {
   }
 
   if (document.myform.email_signup.value != "" && document.myform.username_signup.value != "" && document.myform.confirmp_signup.value != "" && document.myform.password_signup.value != "") {
+    localStorage.setItem("create", document.myform.email_signup.value);
     return true;
   } else {
     return false;
@@ -120,8 +121,9 @@ let validate_login = () => {
    }else{
     pass_login.innerHTML = "Password must be atleast 8 characters"
   }
-
-  if (document.myform.username_login.value != "" && document.myform.password_login.value != "" && document.myform.username_login.value.length >= 5 && document.myform.password_login.value.length >= 8) {
+  
+  if (document.myform.username_login.value != "" && document.myform.password_login.value != "" 
+  && document.myform.username_login.value.length >= 5 && document.myform.password_login.value.length >= 8) {
     return true;
   } else {
     return false;
